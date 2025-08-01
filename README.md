@@ -6,12 +6,14 @@ An AI-powered Research Agent built entirely on **IBM Cloud** using **Watsonx.ai*
 
 ## 📌 Problem Statement No. 1 – Research Agent
 
-A Research Agent is an AI system designed to:
-- Autonomously search literature
-- Summarize academic papers
-- Organize references
-- Understand user research queries using NLP
-- Generate research reports, suggest hypotheses, and extract insights
+The Challenge- A Research Agent is an AI system designed to assist with academic and scientific
+research tasks. It can autonomously search for literature, summarize papers, and organize references.
+Using natural language processing, it understands research questions and retrieves relevant
+information.
+The agent can generate reports, suggest hypotheses, and even draft sections of research papers.
+It saves time by automating repetitive tasks like citation management and data extraction.
+Research Agents enhance efficiency, accuracy, and innovation in both academic and industrial R&D.
+
 
 This project fulfills these capabilities using IBM’s Cloud Lite services and Watsonx tools.
 
@@ -21,9 +23,9 @@ This project fulfills these capabilities using IBM’s Cloud Lite services and W
 
 | Technology         | Purpose                                |
 |--------------------|----------------------------------------|
-| IBM Watsonx.ai     | Model building & deployment             |
-| Granite Model (`granite-3-3-8b-instruct`) | Foundation LLM             |
-| Agent Lab          | No-code agent builder (LangGraph + ReAct) |
+| IBM Watsonx.ai     | Model building & deployment            |
+| Granite Model (`granite-3-3-8b-instruct`) | Foundation LLM  |
+| Agent Lab          | No-code agent builder (LangGraph + ReAct)|
 | IBM Object Storage | PDF upload & vector grounding           |
 | IBM Vector Index   | Grounding Gen AI with vectorized docs   |
 
@@ -41,6 +43,7 @@ This project fulfills these capabilities using IBM’s Cloud Lite services and W
 ---
 
 ## 📁 Project Structure
+
 ResearchAgent/
 ├── Code Snippets/
 │ ├── Python.py
@@ -65,10 +68,10 @@ ResearchAgent/
 │ │ └── vector_index/
 │ ├── assettypes/
 │ └── project.json
-└── README.md
----
-
-
+├── README.md
+├── api references.png
+├── deployed Agent.png
+└── research-paper-sample.docx
 ---
 
 ## 🚀 Features
