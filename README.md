@@ -41,46 +41,96 @@ This project fulfills these capabilities using IBM’s Cloud Lite services and W
 ---
 
 ## 📁 Project Structure
+ResearchAgent/
+├── Code Snippets/
+│ ├── Python.py
+│ └── java.txt
+├── Deployment/
+│ ├── Add deployment space.png
+│ └── deployed status.png
+├── Outputs/
+│ ├── output (1).png ... output (6).png
+├── Project Creation/
+│ ├── Cloud Storage.png
+│ ├── Dashboard.png
+│ ├── Vectorized document.png
+│ ├── Watsonx.ai Project.png
+│ ├── agent lab.png
+│ ├── granite model.png
+│ ├── project name.png
+│ ├── watsonx dashboard.png
+│ ├── watsonx.ai runtime.png
+├── exported agent/
+│ ├── assets/
+│ │ └── vector_index/
+│ ├── assettypes/
+│ └── project.json
+└── README.md
+---
 
 
 ---
 
-## 🛠️ How It Was Built
+## 🚀 Features
 
-1. **Created a Project** in IBM Watsonx.ai Studio
-2. **Added assets** (Notebook + PDF file) or uploaded vector docs
-3. **Built agent** using:
-   - Framework: `LangGraph`
-   - Architecture: `ReAct`
-   - Model: `Granite 3-3-8b Instruct`
-4. **Grounded agent** with vector index (PDF)
-5. **Set instructions** and tuned model parameters
-6. **Deployed as an AI Service**
-7. ✅ Final Agent Preview – live & working
+- 📄 Upload PDFs, DOCX, TXT files for indexing
+- 🔎 Ask contextual questions from documents
+- ✨ Summarize or extract key points from research
+- 🧠 Uses advanced LLMs for inference
+- 🧰 Custom tools like Google Search integrated
 
 ---
 
-## 🧪 Sample Test Prompts
+## 📦 How to Use
 
-- “Summarize the key findings of the uploaded research paper.”
-- “What are the limitations mentioned in the document?”
-- “Generate an introduction section based on this paper.”
-- “Suggest possible future work based on this study.”
-- “List all the methodologies used.”
+> Note: This project is built fully inside IBM Watsonx and **does not require cloning or running code manually**.
+
+1. Go to your Watsonx project dashboard.
+2. Import documents into **Vector Index** (e.g., `research.pdf`).
+3. Ask questions like:
+   - *“Summarize the document”*
+   - *“What are the main findings?”*
+   - *“List the cited works”*
+4. Preview outputs in Agent Lab or deploy it as a service.
 
 ---
 
-## 🧠 Agent Instructions Used
+## 📁 Deployment
 
-```text
-You are a helpful assistant that uses tools to answer questions in detail.
-When greeted, say "Hi, I am watsonx.ai agent. How can I help you?"
+- Navigate to the **Deployment tab** on Watsonx.
+- Ensure API Key is configured.
+- Click **Deploy as AI Service**.
+- Use the **Preview** tab to test responses.
+- Optionally connect to external apps using the **API reference**.
 
-🚀 Deployment Status
-✅ Deployed on IBM Watsonx.ai
-📡 Status: Online
-🔒 Access: Restricted to IBM Cloud account
+---
 
-👨‍💻 Author
-Aditya Ohdar
-Email: adityaohdar24@gmail.com
+## 📌 Screenshots
+
+Screenshots of key steps are included in:
+
+- `Project Creation/` – Watsonx environment setup
+- `Deployment/` – Service deployment details
+- `Outputs/` – Response examples
+- `exported agent/` – JSON export and asset vector index
+
+---
+
+## ✅ Status
+
+**Completed** and successfully deployed. Ready to demonstrate research document understanding and interaction.
+
+---
+
+## 📜 License
+
+This project is part of the **IBM SkillsBuild Sandbox Program** and intended for educational/demo purposes.
+
+---
+
+## 🙋‍♂️ Author
+
+**Aditya Ohdar**  
+Research Agent Builder | IBM Cloud | AI Enthusiast  
+📧 [adityaohdar24@gmail.com](mailto:adityaohdar24@gmail.com)
+
